@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcelona Page</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/stylefromscratch.css">
+</head>
+
+<body>
+    <header class="hero" id="top">
+        <div class="overlay"></div>
+
+        <div class="button-container">
+            <a href="index.html">Home</a>
+            <a href="ai.html">Game</a>
+        </div>
+
+        <div class="hero-content">
+            <h1>Barcelona</h1>
+            <p class="hero-subtitle">The city of beauty, love, and miracles</p>
+        </div>
+    </header>
+
+    <main class="content-section">
+        <div class="intro-box">
+            <div class="photo-collage">
+    <img src="/assets/img/parkguell.jpg" class="tall" alt="Park Guell">
+    <img src="/assets/img/missionconcerts.jpg" class="top" alt="My last mision Christmas concert">
+    <img src="/assets/img/cristiannnn.jpg" class="bottom" alt="me in park guell on my last pday">
+</div>
+            <h2>My Areas</h2>
+            <ol>
+                <li>
+                    Palma de Mallorca
+                    <ul>
+                        <li>Santa Maria Cathedral</li>
+                        <li>Parque de las Estaciones</li>
+                        <li>Plaza España</li>
+                        <li>Sóller</li>
+                    </ul>
+                </li>
+
+                <li>
+                    Figueras
+                    <ul>
+                        <li>Birthplace of Salvador Dalí</li>
+                        <li>Ampuriabrava, the Venice of Spain</li>
+                        <li>La Escala</li>
+                        <li>Hotel Pirineos</li>
+                    </ul>
+                </li>
+
+                <li>
+                    Tarragona
+                    <ul>
+                        <li>El Balcón del Mediterráneo</li>
+                        <li>La Rambla</li>
+                        <li>Playa Gorda</li>
+                    </ul>
+                </li>
+
+                <li>
+                    Barcelona
+                    <ul>
+                        <li>El Barrio Gótico</li>
+                        <li>Liceu & Plaza Cataluña</li>
+                        <li>Casa Batlló</li>
+                        <li>Playa de la Barceloneta</li>
+                        <li>Jardines de Montjuïc</li>
+                    </ul>
+                </li>
+            </ol>
+ <div class="video-section">
+    <iframe 
+        src="https://www.youtube.com/embed/9tyzP8YDjDw"
+        title="Barcelona travel video"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<div class="tableau-section">
+    <h2>Barcelona Map: Population Growth by Area</h2>
+
+    <div class='tableauPlaceholder' id='vizBarcelona' style='position: relative'>
+        <noscript>
+            <a href='#'>
+                <img alt='Barcelona Map'
+                     src='https://public.tableau.com/static/images/Ma/MapaBarcelona/Dashboard1/1_rss.png'
+                     style='border: none' />
+            </a>
+        </noscript>
+
+        <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https://public.tableau.com/' />
+            <param name='embed_code_version' value='3' />
+            <param name='name' value='MapaBarcelona/Dashboard1' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+        </object>
+    </div>
+
+    <script type='text/javascript'>
+        var divElement = document.getElementById('vizBarcelona');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+
+        vizElement.style.width = '100%';
+        vizElement.style.height = '500px';  // adjust this if needed
+
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+</div>
+
+<a href="#top" class="back-to-top">Back to top ↑</a>
+        </div>
+    </main>
+</body>
+</html>
